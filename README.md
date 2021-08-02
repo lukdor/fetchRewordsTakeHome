@@ -1,6 +1,7 @@
-# fetchRewordsTakeHome
+# fetchRewordsTakeHome Coordinator Pattern
 
 This application is created using MVVM design pattern while utilizing the coordinators for navigation.
+Instead of having View Controllers owning an entire viewModel, they own an abstraction of it as the dependencies of a view controller are injeted using protocols
 
 # Why?
 
